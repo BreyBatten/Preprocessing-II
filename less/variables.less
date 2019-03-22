@@ -14,3 +14,14 @@
 @sandy-beach: #FFEBCD;
 
 @mobile: ~"(max-width: 500px)";
+
+.container .home {
+    @media @mobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
