@@ -13,13 +13,15 @@
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
 
+//Breakpoints
 @mobile: ~"(max-width: 500px)";
 
-.container .home {
+.container {
     @media @mobile {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
         align-content: center;
         justify-content: center;
         flex-wrap: wrap;
